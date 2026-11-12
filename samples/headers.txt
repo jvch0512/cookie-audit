@@ -1,0 +1,7 @@
+# fictional response headers
+Set-Cookie: sessionid=abc123; Path=/
+Set-Cookie: __Host-sid=xyz; Secure; HttpOnly; Path=/; SameSite=Strict
+Set-Cookie: tracking=1; SameSite=None
+Set-Cookie: __Host-bad=1; Secure; Domain=example.com; Path=/app
+Set-Cookie: remember_token=t; Secure; HttpOnly; SameSite=Lax; Max-Age=31536000
+Set-Cookie: theme=dark; Secure; SameSite=Lax; Max-Age=3600
